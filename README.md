@@ -63,3 +63,7 @@ Information such as Process ID (PID), Process State, %mem usage, %cpu usage from
 
 5. Who manages these processes?
     - The operating system, storing process information in Process Control Block, and task scheduler which relates to the context switching.
+
+## Images:
+
+<img width="1242" height="756" alt="image" src="https://github.com/user-attachments/assets/f045a95d-2243-4235-8225-711c8d6909b7" />
