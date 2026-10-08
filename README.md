@@ -1,7 +1,6 @@
 # OS-Laboratory-1
 Operating Systems Laboratory 1 - Process Management
 
-
 ## Part E:
 
 ### Python Version: 3.14.2
@@ -66,4 +65,30 @@ Information such as Process ID (PID), Process State, %mem usage, %cpu usage from
 
 ## Images:
 
+### Github Repository:
+
 <img width="1242" height="756" alt="image" src="https://github.com/user-attachments/assets/f045a95d-2243-4235-8225-711c8d6909b7" />
+
+### Github Codespaces environment & Python source code
+
+<img width="1873" height="929" alt="image" src="https://github.com/user-attachments/assets/104d31c4-b1b2-4cb1-b1c6-3256d8a48c3e" />
+
+### Program execution showing PID
+
+<img width="530" height="481" alt="image" src="https://github.com/user-attachments/assets/92528753-fc26-46f7-be77-a95b0bd3504a" />
+
+### ps aux output
+
+<img width="640" height="657" alt="image" src="https://github.com/user-attachments/assets/ac1de226-e21b-4fa9-864d-e73ef68c2230" />
+
+### ps -o pid,stat,cmd output
+
+<img width="518" height="98" alt="image" src="https://github.com/user-attachments/assets/1ee76408-803a-4f75-99a8-9f0c16b93b07" />
+
+### top output
+
+<img width="621" height="724" alt="image" src="https://github.com/user-attachments/assets/b9978c37-a337-4bf6-84d7-1d2e778cb490" />
+
+### Multiple instances of process_lab.py
+
+<img width="696" height="87" alt="image" src="https://github.com/user-attachments/assets/bdf5b8d3-dc13-4e90-8939-5ad85079878a" />
