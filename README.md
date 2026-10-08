@@ -9,8 +9,8 @@ Operating Systems Laboratory 1 - Process Management
 
 ### PID: 18362
 
-1. Why does the operating system assign a PID to every process?
-    - So that every process has an identifier, especially when you need to debug a process that is causing an issue to your platform and there are a ton of processes running simultaneously. It can also help coding be much easier to deal with because you use numbers instead of characters.
+#### Why does the operating system assign a PID to every process?
+- So that every process has an identifier, especially when you need to debug a process that is causing an issue to your platform and there are a ton of processes running simultaneously. It can also help coding be much easier to deal with because you use numbers instead of characters.
 
 ## Part G:
 
@@ -24,7 +24,8 @@ Operating Systems Laboratory 1 - Process Management
 
 ## Part H:
 
-How does the grep command help us locate a specific process? The grep command basically filters out the processes instead of being shown the entire processes from the “ps aux” command. It shows the grep and the process of the specified program or file you attached to the “ps aux | grep” command.
+#### How does the grep command help us locate a specific process?
+- The grep command basically filters out the processes instead of being shown the entire processes from the “ps aux” command. It shows the grep and the process of the specified program or file you attached to the “ps aux | grep” command.
 
 ## Part I:
 
@@ -38,7 +39,8 @@ How does the grep command help us locate a specific process? The grep command ba
 
 ## Part K:
 
-Information such as Process ID (PID), Process State, %mem usage, %cpu usage from ps and top can be associated with the information maintained by the operating system in the Process Control Block (PCB).
+#### Which information observed using ps and top could be associated with information maintained by the operating system for a process?
+- Information such as Process ID (PID), Process State, %mem usage, %cpu usage from ps and top can be associated with the information maintained by the operating system in the Process Control Block (PCB).
 
 ## Part L:
 
@@ -48,20 +50,20 @@ Information such as Process ID (PID), Process State, %mem usage, %cpu usage from
 | Process 2 | 29656 | S+    | 0.2%  |
 | Process 3 | 29682 | S+    | 0.0%  |
 
-1. Are the PIDs the same?
-    - No, because every Process Identifier is unique to a process.
+#### 1. Are the PIDs the same?
+- No, because every Process Identifier is unique to a process.
 
-2. Why are the PIDs different?
-    - PIDs are different so that whenever you need to find a specific process, no matter if the processes are all the same program but are different instances, you can accurately navigate the specific process instance and do whatever you want with it.
+#### 2. Why are the PIDs different?
+- PIDs are different so that whenever you need to find a specific process, no matter if the processes are all the same program but are different instances, you can accurately navigate the specific process instance and do whatever you want with it.
 
-3. Are the three processes running the same program?
-    - They are the same program because the program is run three times, but they are split into three different processes with the same logic, just different PIDs.
+#### 3. Are the three processes running the same program?
+- They are the same program because the program is run three times, but they are split into three different processes with the same logic, just different PIDs.
 
-4. Can one program create multiple processes?
-    - Yes, because a program might create a child process which happens to have what the program needs from that program, leading to a program creating multiple different processes.
+#### 4. Can one program create multiple processes?
+- Yes, because a program might create a child process which happens to have what the program needs from that program, leading to a program creating multiple different processes.
 
-5. Who manages these processes?
-    - The operating system, storing process information in Process Control Block, and task scheduler which relates to the context switching.
+#### 5. Who manages these processes?
+- The operating system, storing process information in Process Control Block, and task scheduler which relates to the context switching.
 
 ## Images:
 
